@@ -1,0 +1,14 @@
+<h5 class="card-title font-bold">{{ leyenda }}</h5>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-info" type="button" (click)="changeProgress(-5)">
+      <i class="mdi mdi-minus"></i>
+    </button>
+  </div>
+  <input type="text" class="form-control" name="percent" [(ngModel)]="increment" (ngModelChange)="onChange($event)">
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-info" type="button" (click)="changeProgress(+5)">
+      <i class="mdi mdi-plus"></i>
+    </button>
+  </div>
+</div>
