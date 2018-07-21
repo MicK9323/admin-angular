@@ -1,17 +1,18 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { SharedModule } from './../shared/shared.module';
+import { SharedModule } from '../shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import { ChartsModule } from 'ng2-charts';
 
 
 // Componentes
-import { IncrementadorComponent } from './../components/incrementador/incrementador.component';
+import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { PagesComponent } from './pages.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { GraficodonaComponent } from './../components/graficodona/graficodona.component';
+import { GraficodonaComponent } from '../components/graficodona/graficodona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 // Rutas del modulo
 import { PAGES_ROUTES } from './pages.routes';
@@ -27,7 +28,8 @@ import { PAGES_ROUTES } from './pages.routes';
     ProgressComponent,
     PagesComponent,
     IncrementadorComponent,
-    GraficodonaComponent
+    GraficodonaComponent,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,

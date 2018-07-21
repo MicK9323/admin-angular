@@ -20,9 +20,6 @@ export class GraficodonaComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('Data', this.chartData);
-    console.log('Labels', this.chartLabels);
-    console.log('Type', this.chartType);
   }
 
 }
